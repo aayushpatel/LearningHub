@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48861" started-at="2022-10-02T17:19:02Z" finished-at="2022-10-02T17:19:50Z">
+    <groups>
+      <group name="purchase">
+        <method signature="StandaloneTest.E2Eorder(java.util.HashMap)[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@43ee72e6]" name="E2Eorder" class="aayushpatelframework.TestCases.StandaloneTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test name="Default test" duration-ms="48861" started-at="2022-10-02T17:19:02Z" finished-at="2022-10-02T17:19:50Z">
+      <class name="aayushpatelframework.TestCases.StandaloneTest">
+        <test-method status="PASS" signature="goTo()[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@43ee72e6]" name="goTo" is-config="true" duration-ms="10257" started-at="2022-10-02T17:19:02Z" finished-at="2022-10-02T17:19:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goTo -->
+        <test-method status="PASS" signature="E2Eorder(java.util.HashMap)[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@43ee72e6]" name="E2Eorder" duration-ms="7684" started-at="2022-10-02T17:19:13Z" data-provider="getdata" finished-at="2022-10-02T17:19:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Aayush@123, product=zara coat 3, email=aayushp47@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E2Eorder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@43ee72e6]" name="tearDown" is-config="true" duration-ms="155" started-at="2022-10-02T17:19:20Z" finished-at="2022-10-02T17:19:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="goTo()[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@43ee72e6]" name="goTo" is-config="true" duration-ms="6889" started-at="2022-10-02T17:19:21Z" finished-at="2022-10-02T17:19:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goTo -->
+        <test-method status="PASS" signature="E2Eorder(java.util.HashMap)[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@43ee72e6]" name="E2Eorder" duration-ms="13136" started-at="2022-10-02T17:19:27Z" data-provider="getdata" finished-at="2022-10-02T17:19:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=adidas original, email=shetty@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E2Eorder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@43ee72e6]" name="tearDown" is-config="true" duration-ms="153" started-at="2022-10-02T17:19:41Z" finished-at="2022-10-02T17:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="goTo()[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@43ee72e6]" name="goTo" is-config="true" duration-ms="7071" started-at="2022-10-02T17:19:41Z" finished-at="2022-10-02T17:19:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goTo -->
+        <test-method status="PASS" signature="OrderHistoryTest()[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@43ee72e6]" name="OrderHistoryTest" duration-ms="2376" started-at="2022-10-02T17:19:48Z" depends-on-methods="aayushpatelframework.TestCases.StandaloneTest.E2Eorder" finished-at="2022-10-02T17:19:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@43ee72e6]" name="tearDown" is-config="true" duration-ms="199" started-at="2022-10-02T17:19:50Z" finished-at="2022-10-02T17:19:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aayushpatelframework.TestCases.StandaloneTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
