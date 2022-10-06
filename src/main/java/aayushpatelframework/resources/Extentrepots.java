@@ -9,7 +9,7 @@ public class Extentrepots {
 
 	public static ExtentReports getReportObject() {
 		Date d = new Date();
-		String path = System.getProperty("user.dir") + "//reports//Report" + d.getTime() + ".html";
+		String path = System.getProperty("user.dir") + "//reports//Report" + d.getDate()+ ".html";
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 		reporter.config().setDocumentTitle("Shoping cart");
 		reporter.config().setReportName("regression");

@@ -29,10 +29,11 @@ public class CheckoutPage extends ReusableUtilities {
 	@FindBy(css = ".ta-item")
 	List<WebElement> listCountry;
 
-	@FindBy(css = ".action__submit")
+	@FindBy(xpath = "//a[@class='btnn action__submit ng-star-inserted']")
 	WebElement submitBtn;
 
 	public void selectCountry(String reqcountry) {
+
 		Actions a = new Actions(driver);
 		a.sendKeys(country, reqcountry).build().perform();
 		waitforElementExplicit(By.cssSelector(".ta-results"));
@@ -44,8 +45,8 @@ public class CheckoutPage extends ReusableUtilities {
 
 	public ConfirmationPage submitOrder() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,600)", "");
-
+		js.executeScript("window.scrollBy(0,1200)");
+		waitforElementEnable(submitBtn);
 		submitBtn.click();
 		return new ConfirmationPage(driver);
 	}

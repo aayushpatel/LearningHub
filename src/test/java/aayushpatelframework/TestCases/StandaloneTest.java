@@ -24,7 +24,7 @@ public class StandaloneTest extends Base {
 	// public void E2Eorder(String email, String password, String req) throws
 	// IOException {
 // With HashMap
-	public void E2Eorder(HashMap<String, String> input) throws IOException {
+	public void E2Eorder(HashMap<String, String> input) throws IOException{
 		// ProductCatlougePage Pp = Lp.loginToApplication(input.get("email"),
 		// input.get("password"));
 		ProductCatlougePage Pp = Lp.loginToApplication(input.get("email"), input.get("password"));

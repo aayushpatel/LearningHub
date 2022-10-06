@@ -38,6 +38,11 @@ public class ReusableUtilities {
 		wait.until(ExpectedConditions.visibilityOf(locator));
 	}
 
+	public void waitforElementEnable(WebElement locator) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+		wait.until(ExpectedConditions.elementToBeClickable(locator));
+	}
+	
 	public void waitforElementDisappear(WebElement locator) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		wait.until(ExpectedConditions.invisibilityOf(locator));
