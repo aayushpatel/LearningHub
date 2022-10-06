@@ -13,7 +13,6 @@ import aayushpatelframework.resources.Extentrepots;
 
 public class Listeners extends Base implements ITestListener {
 
-	WebDriver driver;
 	ExtentTest test;
 	ExtentReports extent = Extentrepots.getReportObject();
 	@Override
@@ -30,6 +29,7 @@ public class Listeners extends Base implements ITestListener {
 	@Override
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
+
 		test.fail(result.getThrowable());
 		String FilePath = null;
 		try {
@@ -38,12 +38,13 @@ public class Listeners extends Base implements ITestListener {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
+
 		try {
 			FilePath = getScreenShot(result.getMethod().getMethodName(), driver);
-		} catch (Exception e1) {
-			e1.printStackTrace();
+			test.addScreenCaptureFromPath(FilePath, result.getMethod().getMethodName());
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
-		test.addScreenCaptureFromPath(FilePath, result.getMethod().getMethodName());
 	}
 
 	@Override

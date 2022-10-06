@@ -26,7 +26,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base {
 
-	WebDriver driver;
+	public WebDriver driver;
 	public LandingPage Lp;
 
 	public WebDriver initializeDriver() throws IOException {
@@ -58,7 +58,7 @@ public class Base {
 		File Source = ts.getScreenshotAs(OutputType.FILE);
 		File des = new File(System.getProperty("user.dir") + "//reports//" + Testcasename + ".png");
 		FileUtils.copyFile(Source, des);
-		return (System.getProperty("user.dir") + "//reports//" + Testcasename + ".png");
+		return System.getProperty("user.dir") + "//reports//" + Testcasename + ".png";
 	}
 
 	public List<HashMap<String, String>> getJsonMapData(String Filepath) throws IOException {

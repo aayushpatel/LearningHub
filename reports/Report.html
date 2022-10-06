@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">regression</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Oct 6, 2022 02:29:56 PM</span></a>
+<a href="#"><span class="badge badge-primary">Oct 6, 2022 02:53:35 PM</span></a>
 </li>
 </ul>
 </div>
@@ -85,9 +85,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">C:\Users\Dell\eclipse-workspace\aayush1907\aayushpatelframework//reports//index.html</p>
+            <p class="name">C:\Users\Dell\eclipse-workspace\aayush1907\aayushpatelframework//reports//Report.html</p>
             <p class="text-sm">
-              <span>2:29:56 PM</span> / <span>00:00:00:000</span>
+              <span>2:53:36 PM</span> / <span>00:00:00:000</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -95,9 +95,9 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">C:\Users\Dell\eclipse-workspace\aayush1907\aayushpatelframework//reports//index.html</h5>
-<span class='badge badge-success'>10.06.2022 2:29:56 PM</span>
-<span class='badge badge-danger'>10.06.2022 2:29:56 PM</span>
+<h5 class="test-status text-pass">C:\Users\Dell\eclipse-workspace\aayush1907\aayushpatelframework//reports//Report.html</h5>
+<span class='badge badge-success'>10.06.2022 2:53:36 PM</span>
+<span class='badge badge-danger'>10.06.2022 2:53:36 PM</span>
 <span class='badge badge-default'>00:00:00:000</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
@@ -106,39 +106,82 @@
 </div>
 </div>          </div>
         </li>
-        <li class="test-item"  status="pass" test-id="2"
+        <li class="test-item"  status="fail" test-id="2"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">E2Eorder</p>
             <p class="text-sm">
-              <span>2:30:10 PM</span> / <span>00:00:12:867</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>2:53:56 PM</span> / <span>00:00:13:275</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">E2Eorder</h5>
-<span class='badge badge-success'>10.06.2022 2:30:10 PM</span>
-<span class='badge badge-danger'>10.06.2022 2:30:23 PM</span>
-<span class='badge badge-default'>00:00:12:867</span>
+<h5 class="test-status text-fail">E2Eorder</h5>
+<span class='badge badge-success'>10.06.2022 2:53:56 PM</span>
+<span class='badge badge-danger'>10.06.2022 2:54:09 PM</span>
+<span class='badge badge-default'>00:00:13:275</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Dell\eclipse-workspace\aayush1907\aayushpatelframework//reports//E2Eorder.png' src="C:\Users\Dell\eclipse-workspace\aayush1907\aayushpatelframework//reports//E2Eorder.png">
+    <div class="title">E2Eorder</div>
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>2:30:23 PM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>2:54:08 PM</td>
         <td>
-          TestPass
+          <textarea readonly class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: #toast-container (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'PATEL', ip: '192.168.1.41', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52606}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52606/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ddc165ce10128014bd969451eee5480
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at aayushpatelframework.Reusable.ReusableUtilities.waitforElementExplicit(ReusableUtilities.java:33)
+	at aayushpatelframework.PageObjects.ProductCatlougePage.getList(ProductCatlougePage.java:34)
+	at aayushpatelframework.PageObjects.ProductCatlougePage.getProductName(ProductCatlougePage.java:40)
+	at aayushpatelframework.PageObjects.ProductCatlougePage.addToCart(ProductCatlougePage.java:49)
+	at aayushpatelframework.TestCases.StandaloneTest.E2Eorder(StandaloneTest.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
+          
         </td>
       </tr>
   </tbody>
@@ -153,7 +196,7 @@
           <div class="test-detail">
             <p class="name">E2Eorder</p>
             <p class="text-sm">
-              <span>2:30:30 PM</span> / <span>00:00:12:842</span>
+              <span>2:54:17 PM</span> / <span>00:00:14:936</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -162,9 +205,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">E2Eorder</h5>
-<span class='badge badge-success'>10.06.2022 2:30:30 PM</span>
-<span class='badge badge-danger'>10.06.2022 2:30:43 PM</span>
-<span class='badge badge-default'>00:00:12:842</span>
+<span class='badge badge-success'>10.06.2022 2:54:17 PM</span>
+<span class='badge badge-danger'>10.06.2022 2:54:32 PM</span>
+<span class='badge badge-default'>00:00:14:936</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -176,7 +219,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>2:30:43 PM</td>
+        <td>2:54:32 PM</td>
         <td>
           TestPass
         </td>
@@ -191,9 +234,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">OrderHistoryTest</p>
+            <p class="name">loginValidation</p>
             <p class="text-sm">
-              <span>2:30:50 PM</span> / <span>00:00:02:038</span>
+              <span>2:54:43 PM</span> / <span>00:00:01:524</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -201,10 +244,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">OrderHistoryTest</h5>
-<span class='badge badge-success'>10.06.2022 2:30:50 PM</span>
-<span class='badge badge-danger'>10.06.2022 2:30:52 PM</span>
-<span class='badge badge-default'>00:00:02:038</span>
+<h5 class="test-status text-pass">loginValidation</h5>
+<span class='badge badge-success'>10.06.2022 2:54:43 PM</span>
+<span class='badge badge-danger'>10.06.2022 2:54:45 PM</span>
+<span class='badge badge-default'>00:00:01:524</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -216,7 +259,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>2:30:52 PM</td>
+        <td>2:54:45 PM</td>
         <td>
           TestPass
         </td>
@@ -226,54 +269,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="5"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">loginValidation</p>
-            <p class="text-sm">
-              <span>2:31:00 PM</span> / <span>00:00:01:390</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">loginValidation</h5>
-<span class='badge badge-success'>10.06.2022 2:31:00 PM</span>
-<span class='badge badge-danger'>10.06.2022 2:31:02 PM</span>
-<span class='badge badge-default'>00:00:01:390</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>2:31:02 PM</td>
-        <td>
-          TestPass
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="6"
+        <li class="test-item"  status="fail" test-id="5"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">loginValidationerror</p>
             <p class="text-sm">
-              <span>2:31:08 PM</span> / <span>00:00:01:197</span>
+              <span>2:54:56 PM</span> / <span>00:00:01:598</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -282,21 +285,25 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">loginValidationerror</h5>
-<span class='badge badge-success'>10.06.2022 2:31:08 PM</span>
-<span class='badge badge-danger'>10.06.2022 2:31:09 PM</span>
-<span class='badge badge-default'>00:00:01:197</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-success'>10.06.2022 2:54:56 PM</span>
+<span class='badge badge-danger'>10.06.2022 2:54:57 PM</span>
+<span class='badge badge-default'>00:00:01:598</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
 </div>
-</div><div class="detail-body mt-4">
+</div>    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\Dell\eclipse-workspace\aayush1907\aayushpatelframework//reports//loginValidationerror.png' src="C:\Users\Dell\eclipse-workspace\aayush1907\aayushpatelframework//reports//loginValidationerror.png">
+    <div class="title">loginValidationerror</div>
+    </div></div>
+<div class="detail-body mt-4">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>2:31:09 PM</td>
+        <td>2:54:57 PM</td>
         <td>
           <textarea readonly class="code-block">java.lang.AssertionError: expected [Incorrect emai or password.] but found [Incorrect email or password.]
 	at org.testng.Assert.fail(Assert.java:96)
@@ -340,14 +347,14 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="7"
+        <li class="test-item"  status="pass" test-id="6"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">productValidation</p>
             <p class="text-sm">
-              <span>2:31:16 PM</span> / <span>00:00:10:416</span>
+              <span>2:55:07 PM</span> / <span>00:00:10:068</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -356,10 +363,10 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">productValidation</h5>
-<span class='badge badge-success'>10.06.2022 2:31:16 PM</span>
-<span class='badge badge-danger'>10.06.2022 2:31:26 PM</span>
-<span class='badge badge-default'>00:00:10:416</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-success'>10.06.2022 2:55:07 PM</span>
+<span class='badge badge-danger'>10.06.2022 2:55:17 PM</span>
+<span class='badge badge-default'>00:00:10:068</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
@@ -370,7 +377,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>2:31:26 PM</td>
+        <td>2:55:17 PM</td>
         <td>
           TestPass
         </td>
@@ -393,10 +400,43 @@
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
 <ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.TimeoutException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.TimeoutException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:53:56 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>E2Eorder</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
@@ -421,9 +461,9 @@
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>14:31:08 PM</td>
+<td>14:54:56 PM</td>
 <td>
-<a href="#" class="linked" test-id='6' id='6'>loginValidationerror</a>
+<a href="#" class="linked" test-id='5' id='5'>loginValidationerror</a>
 </td>
 </tr>
 </tbody>
@@ -443,25 +483,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Oct 6, 2022 02:29:56 PM</h3>
+<h3>Oct 6, 2022 02:53:35 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Oct 6, 2022 02:31:26 PM</h3>
+<h3>Oct 6, 2022 02:55:18 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>6</h3>
+<h3>4</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>1</h3>
+<h3>2</h3>
 </div></div>
 </div>
 </div>
@@ -477,12 +517,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='85%'>
-<b>6</b> tests passed
+<div><small data-tooltip='66%'>
+<b>4</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='14%'><b>1</b> tests failed,
+<small data-tooltip='33%'><b>2</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -500,9 +540,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='83%'><b>5</b> events passed</small></div>
+<div><small data-tooltip='60%'><b>3</b> events passed</small></div>
 <div>
-<small data-tooltip='16%'><b>1</b> events failed,
+<small data-tooltip='40%'><b>2</b> events failed,
 <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -519,7 +559,7 @@
 </div></div>
 <script>
 var timeline = {
-"C:\Users\Dell\eclipse-workspace\aayush1907\aayushpatelframework//reports//index.html":0,"E2Eorder":12.867,"E2Eorder":12.842,"OrderHistoryTest":2.038,"loginValidation":1.39,"loginValidationerror":1.197,"productValidation":10.416
+"C:\Users\Dell\eclipse-workspace\aayush1907\aayushpatelframework//reports//Report.html":0,"E2Eorder":13.275,"E2Eorder":14.936,"loginValidation":1.524,"loginValidationerror":1.598,"productValidation":10.068
 };
 </script>
 <div class="row">
@@ -542,8 +582,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 6,
-failParent: 1,
+passParent: 4,
+failParent: 2,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -559,8 +599,8 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 5,
-failEvents: 1,
+passEvents: 3,
+failEvents: 2,
 warningEvents: 0,
 skipEvents: 0,
 infoEvents: 0
