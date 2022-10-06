@@ -77,7 +77,7 @@ public class StandaloneTest extends Base {
 	@DataProvider
 	public Object[][] getdata() throws IOException {
 		List<HashMap<String, String>> data = getJsonMapData(
-				System.getProperty("user.dir") + "src\\test\\java\\aayushpatelframework\\data\\purchaseOrder.json");
+				System.getProperty("user.dir") + "\\src\\test\\java\\aayushpatelframework\\data\\purchaseOrder.json");
 		return new Object[][] { { data.get(0) }, { data.get(1) } };
 	}
 
