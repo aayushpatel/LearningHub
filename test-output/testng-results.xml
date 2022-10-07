@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-06T15:59:49Z" name="Suite" finished-at="2022-10-06T16:00:47Z" duration-ms="57932">
+  <suite started-at="2022-10-07T13:47:47Z" name="Suite" finished-at="2022-10-07T13:48:46Z" duration-ms="59233">
     <groups>
       <group name="purchase">
         <method signature="StandaloneTest.E2Eorder(java.util.HashMap)[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@485a3466]" name="E2Eorder" class="aayushpatelframework.TestCases.StandaloneTest"/>
       </group> <!-- purchase -->
     </groups>
-    <test started-at="2022-10-06T15:59:49Z" name="SubmitOrder" finished-at="2022-10-06T16:00:23Z" duration-ms="34145">
+    <test started-at="2022-10-07T13:47:47Z" name="SubmitOrder" finished-at="2022-10-07T13:48:24Z" duration-ms="37101">
       <class name="aayushpatelframework.TestCases.StandaloneTest">
-        <test-method is-config="true" signature="goTo()[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@485a3466]" started-at="2022-10-06T15:59:49Z" name="goTo" finished-at="2022-10-06T15:59:56Z" duration-ms="6671" status="PASS">
+        <test-method is-config="true" signature="goTo()[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@485a3466]" started-at="2022-10-07T13:47:47Z" name="goTo" finished-at="2022-10-07T13:47:54Z" duration-ms="7449" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goTo -->
-        <test-method signature="E2Eorder(java.util.HashMap)[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@485a3466]" started-at="2022-10-06T15:59:56Z" name="E2Eorder" data-provider="getdata" finished-at="2022-10-06T16:00:05Z" duration-ms="9671" status="PASS">
+        <test-method signature="E2Eorder(java.util.HashMap)[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@485a3466]" started-at="2022-10-07T13:47:54Z" name="E2Eorder" data-provider="getdata" finished-at="2022-10-07T13:48:00Z" duration-ms="5233" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -25,15 +25,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- E2Eorder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@485a3466]" started-at="2022-10-06T16:00:05Z" name="tearDown" finished-at="2022-10-06T16:00:06Z" duration-ms="150" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@485a3466]" started-at="2022-10-07T13:48:00Z" name="tearDown" finished-at="2022-10-07T13:48:00Z" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="goTo()[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@485a3466]" started-at="2022-10-06T16:00:06Z" name="goTo" finished-at="2022-10-06T16:00:09Z" duration-ms="3643" status="PASS">
+        <test-method is-config="true" signature="goTo()[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@485a3466]" started-at="2022-10-07T13:48:00Z" name="goTo" finished-at="2022-10-07T13:48:06Z" duration-ms="5792" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goTo -->
-        <test-method signature="E2Eorder(java.util.HashMap)[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@485a3466]" started-at="2022-10-06T16:00:09Z" name="E2Eorder" data-provider="getdata" finished-at="2022-10-06T16:00:19Z" duration-ms="9613" status="PASS">
+        <test-method signature="E2Eorder(java.util.HashMap)[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@485a3466]" started-at="2022-10-07T13:48:06Z" name="E2Eorder" data-provider="getdata" finished-at="2022-10-07T13:48:16Z" duration-ms="10889" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,43 +44,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- E2Eorder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@485a3466]" started-at="2022-10-06T16:00:19Z" name="tearDown" finished-at="2022-10-06T16:00:19Z" duration-ms="166" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@485a3466]" started-at="2022-10-07T13:48:16Z" name="tearDown" finished-at="2022-10-07T13:48:17Z" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="goTo()[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@485a3466]" started-at="2022-10-06T16:00:19Z" name="goTo" finished-at="2022-10-06T16:00:22Z" duration-ms="3236" status="PASS">
+        <test-method is-config="true" signature="goTo()[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@485a3466]" started-at="2022-10-07T13:48:17Z" name="goTo" finished-at="2022-10-07T13:48:22Z" duration-ms="5735" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goTo -->
-        <test-method signature="OrderHistoryTest()[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@485a3466]" started-at="2022-10-06T16:00:22Z" name="OrderHistoryTest" finished-at="2022-10-06T16:00:23Z" depends-on-methods="aayushpatelframework.TestCases.StandaloneTest.E2Eorder" duration-ms="617" status="PASS">
+        <test-method signature="OrderHistoryTest()[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@485a3466]" started-at="2022-10-07T13:48:22Z" name="OrderHistoryTest" finished-at="2022-10-07T13:48:23Z" depends-on-methods="aayushpatelframework.TestCases.StandaloneTest.E2Eorder" duration-ms="1110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OrderHistoryTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@485a3466]" started-at="2022-10-06T16:00:23Z" name="tearDown" finished-at="2022-10-06T16:00:23Z" duration-ms="92" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:aayushpatelframework.TestCases.StandaloneTest@485a3466]" started-at="2022-10-07T13:48:23Z" name="tearDown" finished-at="2022-10-07T13:48:24Z" duration-ms="141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- aayushpatelframework.TestCases.StandaloneTest -->
     </test> <!-- SubmitOrder -->
-    <test started-at="2022-10-06T16:00:23Z" name="Error" finished-at="2022-10-06T16:00:47Z" duration-ms="23498">
+    <test started-at="2022-10-07T13:48:24Z" name="Error" finished-at="2022-10-07T13:48:46Z" duration-ms="21653">
       <class name="aayushpatelframework.TestCases.ErrorValidationTest">
-        <test-method is-config="true" signature="goTo()[pri:0, instance:aayushpatelframework.TestCases.ErrorValidationTest@54227100]" started-at="2022-10-06T16:00:23Z" name="goTo" finished-at="2022-10-06T16:00:26Z" duration-ms="3254" status="PASS">
+        <test-method is-config="true" signature="goTo()[pri:0, instance:aayushpatelframework.TestCases.ErrorValidationTest@54227100]" started-at="2022-10-07T13:48:24Z" name="goTo" finished-at="2022-10-07T13:48:29Z" duration-ms="5339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goTo -->
-        <test-method signature="loginValidation()[pri:0, instance:aayushpatelframework.TestCases.ErrorValidationTest@54227100]" started-at="2022-10-06T16:00:26Z" name="loginValidation" finished-at="2022-10-06T16:00:27Z" duration-ms="505" status="PASS">
+        <test-method signature="loginValidation()[pri:0, instance:aayushpatelframework.TestCases.ErrorValidationTest@54227100]" started-at="2022-10-07T13:48:29Z" name="loginValidation" finished-at="2022-10-07T13:48:30Z" duration-ms="654" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:aayushpatelframework.TestCases.ErrorValidationTest@54227100]" started-at="2022-10-06T16:00:27Z" name="tearDown" finished-at="2022-10-06T16:00:31Z" duration-ms="3587" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:aayushpatelframework.TestCases.ErrorValidationTest@54227100]" started-at="2022-10-07T13:48:30Z" name="tearDown" finished-at="2022-10-07T13:48:30Z" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="goTo()[pri:0, instance:aayushpatelframework.TestCases.ErrorValidationTest@54227100]" started-at="2022-10-06T16:00:31Z" name="goTo" finished-at="2022-10-06T16:00:34Z" duration-ms="3241" status="PASS">
+        <test-method is-config="true" signature="goTo()[pri:0, instance:aayushpatelframework.TestCases.ErrorValidationTest@54227100]" started-at="2022-10-07T13:48:30Z" name="goTo" finished-at="2022-10-07T13:48:36Z" duration-ms="5513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goTo -->
-        <test-method signature="loginValidationerror()[pri:0, instance:aayushpatelframework.TestCases.ErrorValidationTest@54227100]" started-at="2022-10-06T16:00:34Z" name="loginValidationerror" finished-at="2022-10-06T16:00:34Z" duration-ms="467" status="FAIL">
+        <test-method signature="loginValidationerror()[pri:0, instance:aayushpatelframework.TestCases.ErrorValidationTest@54227100]" started-at="2022-10-07T13:48:36Z" name="loginValidationerror" finished-at="2022-10-07T13:48:37Z" duration-ms="721" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Incorrect emai or password.] but found [Incorrect email or password.]]]>
@@ -125,19 +125,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginValidationerror -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:aayushpatelframework.TestCases.ErrorValidationTest@54227100]" started-at="2022-10-06T16:00:35Z" name="tearDown" finished-at="2022-10-06T16:00:35Z" duration-ms="104" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:aayushpatelframework.TestCases.ErrorValidationTest@54227100]" started-at="2022-10-07T13:48:37Z" name="tearDown" finished-at="2022-10-07T13:48:38Z" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="goTo()[pri:0, instance:aayushpatelframework.TestCases.ErrorValidationTest@54227100]" started-at="2022-10-06T16:00:35Z" name="goTo" finished-at="2022-10-06T16:00:38Z" duration-ms="3288" status="PASS">
+        <test-method is-config="true" signature="goTo()[pri:0, instance:aayushpatelframework.TestCases.ErrorValidationTest@54227100]" started-at="2022-10-07T13:48:38Z" name="goTo" finished-at="2022-10-07T13:48:43Z" duration-ms="5322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goTo -->
-        <test-method signature="productValidation()[pri:0, instance:aayushpatelframework.TestCases.ErrorValidationTest@54227100]" started-at="2022-10-06T16:00:38Z" name="productValidation" finished-at="2022-10-06T16:00:47Z" duration-ms="8538" status="PASS">
+        <test-method signature="productValidation()[pri:0, instance:aayushpatelframework.TestCases.ErrorValidationTest@54227100]" started-at="2022-10-07T13:48:43Z" name="productValidation" finished-at="2022-10-07T13:48:46Z" duration-ms="2747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:aayushpatelframework.TestCases.ErrorValidationTest@54227100]" started-at="2022-10-06T16:00:47Z" name="tearDown" finished-at="2022-10-06T16:00:47Z" duration-ms="152" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:aayushpatelframework.TestCases.ErrorValidationTest@54227100]" started-at="2022-10-07T13:48:46Z" name="tearDown" finished-at="2022-10-07T13:48:46Z" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
