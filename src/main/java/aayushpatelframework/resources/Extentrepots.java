@@ -1,5 +1,6 @@
 package aayushpatelframework.resources;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -9,7 +10,8 @@ public class Extentrepots {
 
 	public static ExtentReports getReportObject() {
 		Date d = new Date();
-		String path = System.getProperty("user.dir") + "//reports//Report" + d.getTime() + ".html";
+		String dateval = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss").format(d);
+		String path = System.getProperty("user.dir") + "//reports//Report" + dateval + ".html";
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 		reporter.config().setDocumentTitle("Shoping cart");
 		reporter.config().setReportName("regression");
