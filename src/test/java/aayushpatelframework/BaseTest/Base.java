@@ -10,10 +10,12 @@ import java.util.List;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -36,11 +38,18 @@ public class Base {
 				System.getProperty("user.dir")
 						+ "\\src\\main\\java\\aayushpatelframework\\resources\\GlobalData.properties");
 		prop.load(fi);
-		String browserName = prop.getProperty("browser");
 
-		if (browserName.equalsIgnoreCase("chrome")) {
-		WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+		String browserName = System.getProperty("browser") != null ? System.getProperty("browser")
+				: prop.getProperty("browser");
+
+		if (browserName.contains("chrome")) {
+			ChromeOptions c = new ChromeOptions();
+			WebDriverManager.chromedriver().setup();
+			if (browserName.contains("headless")) {
+				c.addArguments("headless");
+			}
+			driver = new ChromeDriver(c);
+			driver.manage().window().setSize(new Dimension(1400, 900));
 		}
 
 		else if (browserName.equalsIgnoreCase("edge")) {
